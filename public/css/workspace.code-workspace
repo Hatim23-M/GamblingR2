@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\Gamble"
+		},
+		{
+			"path": "..\\..\\..\\..\\MyDownloads\\math assoc\\AMO-2022-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GamblingRound2"
+	}
+}

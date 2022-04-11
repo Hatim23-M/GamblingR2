@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap'); 
+*{
+background: cornsilk;
+margin: 0;
+padding: 0;
+font-family: 'Roboto';
+box-sizing: border-box; 
+}
+.header{
+    background-color:  #1f2021;
+    height: 164px;
+    width:100%;   
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;       
+}
+h1{
+    color: #dfe7f0;
+    background-color:  #1f2021;
+}
+h2{
+    color: #dfe7f0;
+    background-color:  #1f2021;
+}
+.main_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* img{ 
+    height: 500px;
+    width: 100%;
+    overflow: scroll;
+/* }* */
+button{
+    position: absolute;
+    bottom: 50px; 
+    right: 60px;
+    width: 100px;
+    height: 50px;
+    background-color: #ff0000;
+    border: 2px solid #000;
+    border-radius: 4px;
+    font-weight: 600;  
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16 px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+button:hover {
+     background-color: #6c1477; /* Green */
+     color: white;
+}
+
+
+.top{
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+#particles-js{
+    height: 100vh;
+    width: 100vw;
+    background-color: #002768;
+}
+.main{
+    position: absolute;
+    top: 0px;
+    margin: 9rem 9rem;
+    margin-bottom: 9em;
+    padding: 2rem;
+    background-color: #00000073;
+    border: 2px dashed black;
+    border-radius: 12px;
+}
+.main p{
+    padding: 0px 2px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: white;
+    
+}
+.main h1{
+    color: white;
+}
+input{
+    padding: 1em 4em;
+    text-align: center;
+    margin-left: 5em;
+    background-color: #0000000f;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    color: white;
+    transition: all .2s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-ms-reveal {
+    filter: invert(100%);
+  }
+.elements
+{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px 30px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgba(255, 255, 255, 0.778);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+.main button{
+    
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px 30px;
+    background-color: #0000000f;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    color: white;
+    transition: all .2s ease-in-out;
+    
+}
+.main button:hover{
+    transform: scale(1.2);
+}
+
+.main button a{
+
+    text-decoration: none;
+    color: white;
+}
+.main button span{
+    position: relative;
+    bottom: 5px;
+}
+.main button img{
+    width: 20px;
+    height: 20px;
+}
