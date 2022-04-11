@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 var i = require('../controller/controller').variable
 
 exports.loginRoute = (req, res) => {
-    res.render('landingpage')
+    res.render('index')
 }
 
 exports.instructionsRoute =  (req, res) => {
